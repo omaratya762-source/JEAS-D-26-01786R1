@@ -1,0 +1,7 @@
+Component,Capacity,Annual Production (kWh),Share of Total Generation (%)
+PV Array,391 kW,758407,86.30
+Wind Turbine,20 kW,100766,11.50
+Backup Diesel Generator,100 kW,19673,2.20
+Battery Storage System,2134 kWh (nominal),270811 (throughput),-
+Power Converter (DC/AC),161 kW,577540 (AC output),-
+Total Electricity Generation,-,878846,100

@@ -1,0 +1,5 @@
+Indicator,Scenario 1,Scenario 2,Scenario 3 (Optimal)
+NPC (M$),N/A,1.23,1.26
+LCOE ($/kWh),0.1347,0.1389,0.142
+Initial Capital Cost (M$),0.85,N/A,0.824
+Annual Operating Cost ($/yr),25556,37963,33718

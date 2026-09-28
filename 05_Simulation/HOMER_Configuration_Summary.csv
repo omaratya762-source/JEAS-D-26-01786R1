@@ -1,0 +1,22 @@
+Parameter,Value,Unit
+Project Lifetime,25,years
+Discount Rate,6,%
+Simulation Time Step,1,hour
+Annual Load,685016,kWh
+Peak Load,136.6,kW
+Critical Load Share,28,%
+Essential Load Share,55,%
+Non-Essential Load Share,17,%
+Solar Irradiance,6.08,kWh/m2/day
+Clearness Index,0.668,-
+Wind Speed,6.26,m/s at 50m
+Wind Hub Height,36,m
+PV Capital Cost,1000,$/kW
+Wind Capital Cost,8665,$/kW
+Battery Capital Cost,120,$/kWh
+Converter Capital Cost,180,$/kW
+Diesel Generator Capital Cost,200,$/kW
+SOC Minimum,20,%
+SOC Maximum,100,%
+Self-Discharge Rate,1,%/day
+Maximum Annual Capacity Shortage,0,%

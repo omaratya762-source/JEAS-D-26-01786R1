@@ -1,0 +1,13 @@
+Source,Target,Value (MWh/year)
+Solar PV,Critical Loads,191.80
+Solar PV,Essential Loads,172.73
+Solar PV,Battery Charging,240.00
+Solar PV,Excess Energy,153.88
+Wind Power,Essential Loads,30.00
+Wind Power,Battery Charging,39.19
+Wind Power,Excess Energy,31.58
+Diesel Generator,Non-Essential Loads,19.67
+Battery Discharge,Essential Loads,174.03
+Battery Discharge,Non-Essential Loads,96.78
+Battery Losses,System Losses,8.38
+Excess Energy,EV Charging,185.46

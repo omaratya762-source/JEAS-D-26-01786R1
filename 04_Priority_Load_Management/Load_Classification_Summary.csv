@@ -1,0 +1,5 @@
+Load Type,Annual Energy (kWh),Percentage,Daily Average (kWh/day)
+Critical,191805,0.28,525
+Essential,376759,0.55,1032
+Non-Essential,116452,0.17,319
+Total,685016,1,1877

@@ -1,0 +1,4 @@
+Scenario,NPC (M$),LCOE ($/kWh)
+Optimistic,1.16,0.0969
+Baseline,1.26,0.142
+Pessimistic,1.533,0.2245

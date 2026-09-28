@@ -1,0 +1,94 @@
+Category,Parameter,Value,Unit,Notes / Source
+Project Settings,Project Lifetime,25,Years,Section 2.6.1
+Project Settings,Annual Discount Rate,6,%,Section 2.6.1
+Project Settings,Simulation Time Step,1,hour,8760 hours/year
+Project Settings,Optimization Platform,HOMER Pro v3.16,-,Software used
+Project Settings,Objective Function,Minimize NPC,-,Section 2.6.1
+Load Parameters,Annual Electricity Demand,685016,kWh/year,Total load
+Load Parameters,Peak Load,136.6,kW,Summer peak  / Winter peak 102.2 kW
+Load Parameters,Critical Load Share,28,%,191805 kWh/year
+Load Parameters,Essential Load Share,55,%,376759 kWh/year
+Load Parameters,Non-Essential Load Share,17,%,116452 kWh/year
+Load Parameters,Critical Load Operating Hours,24,hours/day,Uninterruptible 24/7
+Load Parameters,Essential Load Operating Hours,16,hours/day,Scheduled daily
+Load Parameters,Non-Essential Load Operating Hours,12-Aug,hours/day,Flexible sheddable
+Solar Resource,Annual Average Irradiance,6.08,kWh/m2/day,NASA POWER
+Solar Resource,Clearness Index,0.668,-,NASA POWER
+Solar Resource,Data Source,NASA POWER,-,Accessed Jan 2026
+Solar Resource,Coordinates,26.25N 31.75E,-,New Sohag City Egypt
+Wind Resource,Annual Mean Wind Speed,6.26,m/s,At 50 m reference height
+Wind Resource,Wind Turbine Hub Height,36,m,Eocycle EO20
+Wind Resource,Wind Shear Adjustment,Power Law,-,HOMER internal scaling
+Wind Resource,Data Source,NASA POWER,-,Accessed Jan 2026
+PV,Model,Canadian Solar MaxPower CS6X-325P,-,Selected module
+PV,Capital Cost,1000,$/kW,Table 5
+PV,Replacement Cost,800,$/kW,Table 5
+PV,O&M Cost,10,$/yr,Table 5
+PV,Lifetime,25,years,Table 5
+PV,Efficiency,16.94,%,At STC
+PV,Derating Factor,0.8,-,Accounts for dust and losses
+Wind Turbine,Model,Eocycle EO20,-,20 kW rated
+Wind Turbine,Capital Cost,8665,$/kW,Table 5
+Wind Turbine,Replacement Cost,2599.5,$/kW,Table 5
+Wind Turbine,O&M Cost,41,$/kW/yr,Table 5
+Wind Turbine,Lifetime,20,years,Table 5
+Wind Turbine,Rated Power,20,kW,Per turbine
+Battery,Model,EnerSys PowerSafe SBS92F,-,Selected model
+Battery,Capital Cost,120,$/kWh,Table 5
+Battery,Replacement Cost,100,$/kWh,Table 5
+Battery,O&M Cost,2,$/kW/yr,Table 5
+Battery,Lifetime,10,years,EUROBAT design-life classification
+Battery,Round-trip Efficiency,97,%,Table 5
+Battery,SOC Minimum,20,%,Assumed from battery datasheet
+Battery,SOC Maximum,100,%,HOMER Pro default
+Battery,Self-Discharge Rate,1,%/day,Section 2.6.2(d)
+Battery,Nominal Capacity (Optimal),2134,kWh,Scenario 3
+Battery,Number of Units (Optimal),1756,units,Scenario 3
+Converter,Capital Cost,180,$/kW,Table 5
+Converter,Replacement Cost,180,$/kW,Table 5
+Converter,O&M Cost,3,$/kW/yr,Table 5
+Converter,Lifetime,15,years,Table 5
+Converter,Efficiency,95,%,Table 5
+Converter,Capacity (Optimal),161,kW,Scenario 3
+Diesel Generator,Capital Cost,200,$/kW,Table 5
+Diesel Generator,Replacement Cost,200,$/kW,Table 5
+Diesel Generator,O&M Cost,34.1,$/op.hr,Table 5
+Diesel Generator,Lifetime,15000,hours,Table 5
+Diesel Generator,Efficiency,41,%,Table 5
+Diesel Generator,Rated Capacity,100,kW,Scenario 3
+Diesel Generator,Fuel Curve Intercept (F0),0.08145,L/h/kW,Section 2.6.2(c)
+Diesel Generator,Fuel Curve Slope (F1),0.246,L/h/kW,Section 2.6.2(c)
+Diesel Generator,Fuel Price,1,$/L,Baseline assumption
+Diesel Generator,Fuel Consumption (Optimal),5565,L/year,Scenario 3
+System Constraints,Maximum Annual Capacity Shortage,0,%,Section 2.7
+System Constraints,Critical Load Unmet,0,%,Section 2.6.3(b)
+System Constraints,Essential Load Unmet,0,%,Section 2.7
+System Constraints,Minimum State of Charge (SOC_min),20,%,Assumed from battery datasheet
+System Constraints,Maximum State of Charge (SOC_max),100,%,HOMER Pro default
+System Constraints,Self-Discharge Rate,1,%/day,Section 2.6.2(d)
+Scenario 1,Description,PV + Battery,-,Fully renewable no backup
+Scenario 1,LCOE,0.1347,$/kWh,Section 3.2
+Scenario 1,Unmet Load,0.77,%,Unacceptable for critical loads
+Scenario 2,Description,PV + DG + Battery,-,With backup generator
+Scenario 2,NPC,1.23,M$,Section 3.2
+Scenario 2,LCOE,0.1389,$/kWh,Section 3.2
+Scenario 2,Unmet Load,0,%,Reliable
+Scenario 3,Description,PV + Wind + DG + Battery,-,Optimal configuration
+Scenario 3,PV Capacity,391,kW,Optimal
+Scenario 3,Wind Capacity,20,kW,Optimal
+Scenario 3,Battery Capacity,2134,kWh,Optimal
+Scenario 3,Diesel Generator Capacity,100,kW,Optimal
+Scenario 3,Converter Capacity,161,kW,Optimal
+Scenario 3,NPC,1.26,M$,Section 3.1
+Scenario 3,LCOE,0.142,$/kWh,Section 3.1
+Scenario 3,RF,97.1,%,Section 3.1
+Scenario 3,CO2 Emissions,14557,kg/year,Section 3.1
+Baseline,Description,Diesel-Only,-,2 x 100 kW generators
+Baseline,NPC,6.487,M$,Section 3.4
+Baseline,LCOE,0.732,$/kWh,Section 3.4
+Baseline,CO2 Emissions,537631,kg/year,Section 3.4
+Baseline,Fuel Consumption,205549,L/year,Section 3.4
+Sensitivity,One-at-a-Time Variation,?30,%,PV Battery Wind Fuel
+Sensitivity,Optimistic Scenario,+20% RE 5% discount 0.20 $/L,-,Table 10
+Sensitivity,Baseline Scenario,Nominal values,-,Table 10
+Sensitivity,Pessimistic Scenario,-20% RE 11% discount 1.00 $/L,-,Table 10

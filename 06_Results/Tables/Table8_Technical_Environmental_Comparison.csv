@@ -1,0 +1,5 @@
+Indicator,Scenario 1,Scenario 2,Scenario 3 (Optimal)
+RF (%),100,96.9,97.1
+Unmet Load (%),0.77,0,0
+Excess Electricity (%),21.3,21.6,17.8
+CO2 Emissions (kg/yr),0,15839,14557

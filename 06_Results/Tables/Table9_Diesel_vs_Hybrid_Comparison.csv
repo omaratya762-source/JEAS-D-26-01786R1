@@ -1,0 +1,10 @@
+Criterion,Optimal System (Scenario 3),Diesel-Only System,Unit,Improvement
+NPC,1.26,6.487,M$,80.6% Lower
+LCOE,0.142,0.732,$/kWh,80.6% Lower
+Initial Capital Cost,0.824,0.040,M$,Higher Initial Investment
+Annual Operating Cost,33718,183988,$/yr,81.7% Lower
+System Reliability (Unmet Load),0,0,%,Meets Critical Requirement
+RF,97.1,0,%,+97.1%
+Excess Electricity,17.8,N/A,%,Utilizable Asset
+CO2 Emissions,14557,537631,kg/yr,97.3% Reduction
+Fuel Consumption,5565,205549,L/yr,97.3% Reduction

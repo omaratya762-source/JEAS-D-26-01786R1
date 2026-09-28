@@ -1,0 +1,6 @@
+Parameter,Optimistic,Pessimistic,Baseline
+NPC (M$),1.16,1.533,1.26
+LCOE ($/kWh),0.0969,0.2245,0.142
+RF (%),99.9,93.9,97.1
+CO2 Emissions (kg/yr),1340,17420,14556
+Diesel Consumption (L/yr),525,6550,5565

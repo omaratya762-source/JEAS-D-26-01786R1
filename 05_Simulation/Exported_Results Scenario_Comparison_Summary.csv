@@ -1,0 +1,10 @@
+Indicator,Scenario 1,Scenario 2,Scenario 3 (Optimal),Diesel-Only
+RF (%),100,96.9,97.1,0
+Unmet Load (%),0.77,0,0,0
+Excess Electricity (%),21.3,21.6,17.8,N/A
+CO2 Emissions (kg/yr),0,15839,14557,537631
+NPC (M$),N/A,1.23,1.26,6.487
+LCOE ($/kWh),0.1347,0.1389,0.142,0.732
+Initial Capital Cost (M$),0.85,N/A,0.824,0.040
+Annual Operating Cost ($/yr),25556,37963,33718,183988
+Fuel Consumption (L/yr),0,N/A,5565,205549
