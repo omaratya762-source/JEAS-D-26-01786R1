@@ -1,4 +1,16 @@
+# Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions
 
+This repository provides the input data, HOMER Pro configuration parameters, exported results, and step-by-step reproduction instructions supporting the above study.
+
+## Repository Structure
+- `01_Input_Data/` – load, solar, and wind datasets
+- `02_HOMER_Models/` – HOMER Pro input parameters
+- `03_Optimization/` – optimization framework and constraints
+- `04_Priority_Load_Management/` – load classification and management strategy
+- `05_Simulation/` – simulation setup and scenario definitions
+- `06_Results/` – exported tables and figure data
+- `07_Reproduction_Instructions/` – step-by-step guide and results mapping
+  
 ---
 
 ## 4. Input Data
