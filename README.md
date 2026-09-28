@@ -139,7 +139,6 @@ If you use this repository, please cite:
 
 > Hamed, O. A., Abdelhameed, E. H., & Mahmoud, A. A. (2026). Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions. *Journal of Engineering and Applied Science (JEAS)*.
 
-
 ---
 
 ---
