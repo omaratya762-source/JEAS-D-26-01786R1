@@ -35,7 +35,7 @@ Due to software license restrictions, the proprietary HOMER Pro project file (.h
 Any value marked as "Assumed" is based on HOMER Pro defaults or manufacturer datasheets, as the paper did not specify a numerical value. These assumptions are stated transparently to ensure reproducibility.
 
 ## Source
-- Paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions" (JEAS-D-26-01786R1).
+- Paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions".
 - HOMER Pro v3.16 User Manual.
 - Manufacturer datasheets (Canadian Solar, Eocycle, EnerSys).
 - NASA POWER database.
