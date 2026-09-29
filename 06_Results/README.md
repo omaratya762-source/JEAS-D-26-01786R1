@@ -29,4 +29,4 @@ Place the corresponding PNG files in the `Figures/` folder. The expected filenam
 - `Figure9_Environmental_Performance.png`
 
 ## Source
-All data is extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions" (JEAS-D-26-01786R1).
+All data is extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions".
