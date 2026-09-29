@@ -22,4 +22,4 @@ A diesel-only baseline was also simulated for comparison.
 Due to software license restrictions, the proprietary HOMER Pro project file (.hmr) cannot be redistributed. All necessary configuration parameters and exported results are provided in this folder to allow full reconstruction of the simulation.
 
 ## Source
-All data is extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions" (JEAS-D-26-01786R1).
+All data is extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions".
