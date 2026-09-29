@@ -3,7 +3,7 @@
 This folder contains the tables and figures data reported in the paper.
 
 ## Structure
-- `Data/` – Contains all CSV files with the numerical data for tables and figures.
+- `Tables/` – Contains all CSV files with the numerical data for tables and figures.
 - `Figures/` – Contains the image files (PNG) for the figures presented in the paper.
 
 ## Data Files
