@@ -21,4 +21,4 @@ This folder contains the optimization parameters, system constraints, and algori
 - Objective: Minimize NPC while ensuring 0% unmet load for critical and essential loads.
 
 ## Source
-All data extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions" (JEAS-D-26-01786R1).
+All data extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions".
