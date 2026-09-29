@@ -17,4 +17,4 @@ The strategy ensures that critical loads are always supplied, essential loads ar
 - `Priority_Load_Management_Strategy.md` – Detailed description of the management strategy and its implementation in HOMER Pro.
 
 ## Source
-All data is extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions" (JEAS-D-26-01786R1).
+All data is extracted from the paper: "Reliability-Oriented Design and Optimization of Renewable Electrification Systems with Priority Load Management for Public Institutions in Remote Urban Regions".
